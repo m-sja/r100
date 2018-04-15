@@ -1,1 +1,1 @@
-Just some random Pics
+Just some random Pics of the disassembled Headset.
