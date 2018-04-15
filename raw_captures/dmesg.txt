@@ -1,0 +1,8 @@
+[33791.388175] usb 5-1: USB disconnect, device number 7
+[33798.788068] usb 5-1: new full-speed USB device number 8 using uhci_hcd
+[33798.970155] usb 5-1: New USB device found, idVendor=1004, idProduct=6374
+[33798.970168] usb 5-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[33798.970177] usb 5-1: Product: LGE Custom Human interface
+[33798.970185] usb 5-1: Manufacturer: LGE
+[33798.970192] usb 5-1: SerialNumber: 00000000001A
+[33798.987307] hid-generic 0003:1004:6374.0007: hiddev0,hidraw0: USB HID v1.11 Device [LGE LGE Custom Human interface] on usb-0000:00:1d.0-1/input0
