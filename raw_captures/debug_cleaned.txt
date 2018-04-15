@@ -1,0 +1,68 @@
+~
+BSP_Init >> Init SPI_Init
+MotionSensor_ReadID : BMI160 ID = 0xD1
+
+
+Sensor Fusion start...
+
+bmi160.dev_addr = 0xD0
+p_bmi160->chip_id = 0xD1, v_data_u8r = 0xD1
+bmi160 Chip ID: 0xD1
+algo_get_version() major=3 minor=6 majorbugFix=1 minorbugFix=1
+sensor switch list: 1 0 1
+~
+sensor switch list: 1 0 1
+~
+Accel back up 16 2 10, CRC 28
+Accel Calibration Offset is Validation
+~
+Gyro back up 8 -5 -12, CRC -9
+Gyro Calibration Offset is Validation
+Calibration temperature = 30
+Accel CRC = 28
+Gyro CRC = -9
+Accel X Cal State = 1, Axis offset = 16
+Accel Y Cal State = 1, Axis offset = 2
+Accel Z Cal State = 1, Axis offset = 10
+Gyro X Cal State = 1, Axis offset = 8
+Gyro Y Cal State = 1, Axis offset = -5
+Gyro Z Cal State = 1, Axis offset = -12
+BSP_Init >> Init BMI160_Init
+~
+Proximity Cal load!!
+pas230.ps_th_far_low = 0, pas230.ps_th_far_high = 171
+pas230.ps_th_near_low = 111, pas230.ps_th_near_high = 1023
+pas230.ps_cross_talk = 41
+~
+BSP_Init >> Init PAS230_Init
+~
+BSP_TC358870XBG_Init_Reg : Waiting for HDMI signal reg=(1) 
+~
+Proximity FAR
+~
+~
+Proximity NEAR
+~
+Proximity FAR
+~
+BSP_TC358870XBG_Start_Video >>  failed ~!! stop to wait HDMI s
+~
+MAX98091_Init >> IN
+MAX98091_Reset >> IN
+MAX98091_HEADSET_On >> IN_END!!!!!!
+Set_Earjack_First
+BSP_Init >> Init MAX98091_Init
+SW : LGR100AT-00-V10a-310-XX-MAR-11-2016+0
+Power_Task: event.value.signals (3), now sleep mode (0)
+Power_Task: proxi_value = 5
+BSP_SM5306_Sleep: already turn off b/L, is_backlight_on (0)
+Power_SleepMode: now sleep mode (1)
+
+INPUT_EVENT_EARJACK_REMOVE
+~
+Power_Task: event.value.signals (4), now sleep mode (1)
+Set_Earjack_Remove
+MAX98091_HEADSET_Off >> END
+Power_SleepMode: now sleep mode (2)
+
+INPUT_EVENT_EARJACK_REMOVE
