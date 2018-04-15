@@ -16,6 +16,8 @@ The File r100_USB-Handshake.pcapng is my Result of the above procedure.
 
 You will also find aditionel information like:
 
-lsusb -v -d 1004:6374
+-> lsusb -v -d 1004:6374
+
+-> dmesg
 
 ...
