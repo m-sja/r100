@@ -1,0 +1,20 @@
+﻿Proximity NEAR
+Power_Task: event.value.signals (1), now sleep mode (2)
+Power_Task: proxi_value = 0
+Set_Earjack_interrupt
+MAX98091_HEADSET_On >> IN_END!!!!!!
+INPUT_EVENT_EARJACK_REMOVE
+BSP_SM5306_On: already turn on B/L, is_vr_app_start (0), is_ba##Power_ActiveMode: now sleep mode (0)
+
+Proximity FAR
+Power_Task: event.value.signals (2), now sleep mode (0)
+Power_Task: proxi_value = 5
+BSP_SM5306_Sleep: already turn off b/L, is_backlight_on (0)
+Power_SleepMode: now sleep mode (1)
+
+Power_Task: event.value.signals (4), now sleep mode (1)
+Set_Earjack_Remove
+MAX98091_HEADSET_Off >> END
+Power_SleepMode: now sleep mode (2)
+
+INPUT_EVENT_EARJACK_REMOVE
