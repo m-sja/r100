@@ -20,4 +20,11 @@ You will also find aditionel information like:
 
 -> dmesg
 
+addes some random dumps ...
+-> cat /dev/hidraw0 > file
+-> xxd /dev/hidraw0 > file
 ...
+
+you can open the files using i.e. nano or vim (i hate vim).
+i tried to clean some junk and make the interesting parts readable in debug_cleaned.txt
+
