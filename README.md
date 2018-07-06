@@ -6,3 +6,6 @@ and here: https://forum.xda-developers.com/lg-g5/accessories/update-lg-vr360-gog
 
 XDA-Member Supportit wrote an App wich allows to update the Headsets Firmware on other Smartphones.
 It worked for me, but i had to cancel out the DisplayPort-Part of the USB-C connection with some weired Adapter-Madness ;-P
+
+I found a gnome-shell extension wich allows to load *.frag Shader-Programs from dash.
+https://github.com/ErwanDouaille/gse-shader
