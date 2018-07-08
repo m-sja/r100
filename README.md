@@ -9,3 +9,9 @@ It worked for me, but i had to cancel out the DisplayPort-Part of the USB-C conn
 
 I found a gnome-shell extension wich allows to load *.frag Shader-Programs from dash.
 https://github.com/ErwanDouaille/gse-shader
+
+Tried to write to /dev/hidraw0 using hidraw-example, but still no luck.
+https://github.com/torvalds/linux/tree/master/samples/hidraw
+
+Found interesting Video with example-Code.
+https://www.youtube.com/watch?v=GdvmsWnZkyc
